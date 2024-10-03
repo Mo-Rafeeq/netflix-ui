@@ -1,0 +1,44 @@
+REACT - Front End Technology (Framework)
+.......................................
+
+Commands
+........
+
+1. Create project: npx create-react-app project-name
+2. to run project: npm start
+3.istall material ui: npm install @mui/material @emotion/react @emotion/styled
+
+Features
+........
+
+1.Component Based Approach
+2.JSX (Javascript XML)
+3.Virtual Dom
+4.Fast
+5.Front end Differences
+
+
+ Angular                           React                                 Vue
+ ....................................................................................
+ 1.Framework            |        Library                       |     Framework
+     -google            |         -facebook                    |        -Open source
+ 2.Typescript           |        Javascript                    |     Javascript
+ 3.Real DOM             |        Virtual DOM                   |     Virtual DOM
+ 4.Two way binding      |        One way binding(parent child) |     Two way binding
+
+ 6.State: Used to store a data,and share it other Component(parent to child)
+ -create a state using useState
+ const [state-name,function name to change stae value]=useState(intial-value)
+ -to update state:using state update function where pass the updated value as argument
+ -to share state from parent to child: using props
+
+ 7.Component: 2 types(create a js file with file name start with capital letter)
+ -Class based Component/stateful Component: (rcc)
+ -Functional base/stateless Component: (rfce)
+ 
+ 8.React Hooks
+ -useState():to create user defined State in Functional Component
+ 
+ 9.Conditional Rendering
+
+ 
